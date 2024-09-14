@@ -1,3 +1,14 @@
+const menu = document.querySelector('nav');
+function showMenu() {
+  menu.style.left = '0';
+}
+function hideMenu() {
+  menu.style.left = '-50%';
+}
+
+showMenu();
+hideMenu();
+
 const feature = document.querySelector('.team');
 
 const featureData = [
@@ -67,7 +78,7 @@ feature.innerHTML = `
           </p>
         </div>
       </div>
-
+   
       <div>
         <img src=${featureData[2].image} alt="">
         <div class="content">
@@ -82,8 +93,10 @@ feature.innerHTML = `
       </div>
 
     </div>
+
+   <button onclick="showFeature()">More</button>
     
-    <div class="team-one">
+    <div class="team-two">
 
       <div>
         <img src=${featureData[3].image} alt="">
@@ -127,13 +140,15 @@ feature.innerHTML = `
     </div>
 `;
 
-const menu = document.querySelector('nav');
-function showMenu() {
-  menu.style.left = '0';
-}
-function hideMenu() {
-  menu.style.left = '-50%';
-}
+const hide = document.querySelector('.team-two');
 
-showMenu();
-hideMenu();
+const team = document.querySelector('.team');
+
+const btn = document.querySelector('button');
+
+function showFeature() {
+  hide.style.display = 'flex';
+  team.style.height = '230vh';
+  btn.style.display = 'none';
+}
+showFeature();
