@@ -616,13 +616,15 @@
     border-bottom: 3px solid #ec5242;
     transition: 0.1s;
   }
-  button{
+
+  button {
     width: 100%;
     height: 40px;
     border: 1px solid #38413f;
     background: transparent;
   }
-  button i{
+
+  button i {
     color: #ec5242;
     margin-left: 5px;
   }
@@ -659,6 +661,7 @@
     flex-direction: column;
     row-gap: 30px;
   }
+
   .team-two div {
     width: 100%;
     height: 33vh;
