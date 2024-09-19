@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const menu = document.querySelector('nav');
 function showMenu() {
   menu.style.left = '0';
@@ -94,7 +96,7 @@ feature.innerHTML = `
 
     </div>
 
-   <button onclick="showFeature()">More</button>
+   <button onclick="showFeature()">MORE<i class="fa-duotone fa-solid fa-chevron-down"></i></button>
     
     <div class="team-two">
 
@@ -151,4 +153,3 @@ function showFeature() {
   team.style.height = '230vh';
   btn.style.display = 'none';
 }
-showFeature();
