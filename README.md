@@ -62,12 +62,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Global Summit] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
-<a href="https://youtu.be/WTkarwSo9I0"></a> This is the link in which i describe the all features of my project.
 
-**[Global Summit]** 
+**[Global Summit]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -114,7 +113,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://youtu.be/WTkarwSo9I0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
