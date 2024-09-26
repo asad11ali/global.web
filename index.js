@@ -150,6 +150,6 @@ const btn = document.querySelector('button');
 
 function showFeature() {
   hide.style.display = 'flex';
-  team.style.height = '230vh';
+  team.style.height = '185vh';
   btn.style.display = 'none';
 }
