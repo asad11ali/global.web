@@ -305,7 +305,7 @@
 
   .partners {
     width: 100%;
-    height: 40vh;
+    height: 400px;
     background-color: #38413f;
   }
 
@@ -356,7 +356,7 @@
 
   .footer {
     width: 100%;
-    height: 40vh;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -904,12 +904,13 @@
 
   .main-program {
     width: 100%;
-    height: 140vh;
+    height: 1150px;
     background-color: #272a31;
     background-image: url("images/pattern_bg.png");
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .main-program h3 {
@@ -928,7 +929,7 @@
 
   .programs {
     width: 96%;
-    height: 130vh;
+    height: 750px;
     position: absolute;
     top: 100%;
     display: flex;
@@ -973,8 +974,8 @@
 
   .main-program .mobile-btn {
     display: flex;
-    position: absolute;
-    top: 200%;
+    position: relative;
+    margin-bottom: 80px;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -1014,17 +1015,18 @@
 
   .team {
     width: 96%;
-    height: 105vh;
+    height: 800px;
     margin-left: 2%;
     margin-right: 2%;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    gap: 30px;
   }
 
   .team-one {
     width: 100%;
-    height: 95vh;
+    height: 650px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -1032,14 +1034,14 @@
 
   .team-one div {
     width: 100%;
-    height: 26vh;
+    height: 200px;
     display: flex;
     column-gap: 8px;
   }
 
   .team-two {
     width: 100%;
-    height: 95vh;
+    height: 650px;
     display: none;
     flex-direction: column;
     row-gap: 30px;
@@ -1047,7 +1049,7 @@
 
   .team-two div {
     width: 100%;
-    height: 26vh;
+    height: 200px;
     display: flex;
     column-gap: 8px;
   }
